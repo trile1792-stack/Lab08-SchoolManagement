@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero text-center">
+    <h1 class="display-5">School Management</h1>
+    <p class="lead mb-0">ASP.NET Core MVC &middot; Entity Framework Core &middot; Code First &middot; SQL Server</p>
+</div>
+
+<div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card entity-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Students</h5>
+                    <p class="card-text text-muted">Manage student records and enrollment dates.</p>
+                    <a class="btn btn-outline-dark btn-sm" asp-controller="Students" asp-action="Index">Open Students</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card entity-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Courses</h5>
+                    <p class="card-text text-muted">Manage courses, credits and owning department.</p>
+                    <a class="btn btn-outline-dark btn-sm" asp-controller="Courses" asp-action="Index">Open Courses</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card entity-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Instructors</h5>
+                    <p class="card-text text-muted">Manage instructors and hire dates.</p>
+                    <a class="btn btn-outline-dark btn-sm" asp-controller="Instructors" asp-action="Index">Open Instructors</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card entity-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Enrollments</h5>
+                    <p class="card-text text-muted">Link students to courses and record grades.</p>
+                    <a class="btn btn-outline-dark btn-sm" asp-controller="Enrollments" asp-action="Index">Open Enrollments</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card entity-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Departments</h5>
+                    <p class="card-text text-muted">Manage departments, budgets and start dates.</p>
+                    <a class="btn btn-outline-dark btn-sm" asp-controller="Departments" asp-action="Index">Open Departments</a>
+                </div>
+            </div>
+        </div>
+</div>

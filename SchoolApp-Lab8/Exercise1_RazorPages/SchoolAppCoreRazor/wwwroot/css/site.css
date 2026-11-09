@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html { font-size: 16px; }
+}
+
+body { margin-bottom: 60px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.hero {
+  padding: 3rem 1.5rem;
+  border-radius: .75rem;
+  background: #f1f5f9;
+  margin-bottom: 2rem;
+}
+
+.entity-card { transition: box-shadow .15s ease; }
+.entity-card:hover { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .12); }
